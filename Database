@@ -1,0 +1,9 @@
+create database cinema;
+use cinema;
+create table movies(movie_name varchar(30) primary key,actor varchar(20),actress varchar(20),director_name varchar(20),year_of_realese DATE);
+Insert into movies(movie_name,actor,actress,director_name,year_of_realese) values ("Harry Potter","Daniel","Emma","Mike","20100101");
+Insert into movies(movie_name,actor,actress,director_name,year_of_realese) values ("Spider Man","Andrew","Emma","Sam","20110605");
+Insert into movies(movie_name,actor,actress,director_name,year_of_realese) values ("Avengers","RDJ","Scarlett","Joe","20190901");
+Insert into movies(movie_name,actor,actress,director_name,year_of_realese) values ("Mission Impossible","Tom","Rebecca","Braine","20090805");
+Insert into movies(movie_name,actor,actress,director_name,year_of_realese) values ("Spy Next Door","Jackie","Amber","Chrise","20080601");
+select * from movies;
